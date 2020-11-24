@@ -3,9 +3,10 @@ import TaskList from './TaskList';
 
 class TaskItems extends Component{
     render(){
+        const {tasks }= this.props;
         return (
             <div>
-                Individual Tasks
+                {tasks}
             </div>
         )
     }
