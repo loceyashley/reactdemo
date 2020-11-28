@@ -36,10 +36,12 @@ class App extends Component {
         this.setState({task: '', todoList: [ ...this.state.todoList, this.state.task] });
     }
     removeTodo = key =>{
+        let completedList = this.state.completedList;
         let todoList = this.state.todoList;
         let index = todoList.indexOf(key);
         if(index > -1){
-            todoList.splice(index, 1);
+           todoList.splice(index, 1);
+            completedList.push(key);
             this.setState({todoList: todoList})
         }
     }
