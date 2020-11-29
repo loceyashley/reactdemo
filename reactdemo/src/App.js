@@ -15,8 +15,9 @@ class App extends Component {
     render(){
         return (
             <div className="App">
-                <h1>To-do List</h1>
-                <form onSubmit={(e) =>this.addTodo(e)}>
+                <h1 id ="titleName">To-do List</h1>
+                <h2 id = "Welcome">Welcome to the React Task List!</h2>
+                <form id ="f" onSubmit={(e) =>this.addTodo(e)}>
                     <input
                         type='text'
                         className='input'
@@ -31,7 +32,7 @@ class App extends Component {
             </div>
         );
     }
-    addTodo(e){
+    addTodo(e){ 
         e.preventDefault();
         this.setState({task: '', todoList: [ ...this.state.todoList, this.state.task] });
     }
