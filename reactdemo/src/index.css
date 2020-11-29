@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#f7d49e;
+  background-image: url("cloud.jpg");
 }
 
 code {
@@ -19,9 +19,31 @@ code {
     border-style: dotted;
     margin-right:20%;
     margin-left:20%;
+    margin-bottom:22px;
 }
 
 #Welcome{
     color: blue;
 }
 
+input{
+   font-size:15px;
+}
+
+button{
+    font-size:15px;
+}
+
+.TasksN{
+    font-size: 20px;
+}
+
+.TasksT{
+    font-size:30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h3, h4{
+    color: blue;
+}

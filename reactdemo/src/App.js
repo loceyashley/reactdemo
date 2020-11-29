@@ -7,8 +7,8 @@ class App extends Component {
     constructor(){
         super()
         this.state = {
-            todoList: ['item2', 'item 1'],
-            completedList: ['walk'],
+            todoList: ['get milk', 'pickup order'],
+            completedList: ['walk 30 minutes'],
             task: ''
         }
     }
@@ -27,9 +27,13 @@ class App extends Component {
                     />
                     <button type='submit'>Add Todo</button>
                 </form>
-                <TaskList title={'Pending Todo'} buttonText={'Done'} tasks={this.state.todoList} buttonFunction={this.removeTodo} />
+                    <TaskList title={'Pending Todo'} buttonText={'Done'} tasks={this.state.todoList} buttonFunction={this.removeTodo} />
                 <TaskList title={'Completed'} buttonText={"Delete"} tasks={this.state.completedList} buttonFunction={this.deleteTodo} />
+
+                <h3>When you are completed with the task click on it to move it to your completed list!</h3>
+                <h4>When you want to clear tasks on your completed list, simply click on it!</h4> 
             </div>
+
         );
     }
     addTodo(e){ 

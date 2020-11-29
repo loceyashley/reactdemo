@@ -6,7 +6,9 @@ class TaskItems extends Component{
         const {tasks, buttonFunction }= this.props;
         return (
             <div onClick={() => buttonFunction(tasks)}>
+                <div class = "TasksN">
                 {tasks}
+                </div>
             </div>
         )
     }
