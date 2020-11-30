@@ -15,5 +15,5 @@ Next, you must build the yarn package by running the code <code>yarn<code>
 Finally, to open the app you must run the command <code> yarn start<code>
 
 
-Github Link: https://github.com/loceyashley/locey_midterm
+Github Link: https://github.com/loceyashley/reactdemo.git
 
