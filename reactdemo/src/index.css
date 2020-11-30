@@ -20,6 +20,7 @@ code {
     margin-right:20%;
     margin-left:20%;
     margin-bottom:22px;
+    margin-top:10px;
 }
 
 #Welcome{
@@ -46,4 +47,9 @@ button{
 
 h3, h4{
     color: blue;
+}
+
+.list-group{
+    margin-right:350px;
+    margin-left:350px;
 }

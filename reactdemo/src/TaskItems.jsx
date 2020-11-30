@@ -7,7 +7,9 @@ class TaskItems extends Component{
         return (
             <div onClick={() => buttonFunction(tasks)}>
                 <div class = "TasksN">
-                {tasks}
+                <ul class="list-group">
+                 <li class="list-group-item"> {tasks}</li>
+                </ul>
                 </div>
             </div>
         )
@@ -15,3 +17,4 @@ class TaskItems extends Component{
 }
 
 export default TaskItems;
+
