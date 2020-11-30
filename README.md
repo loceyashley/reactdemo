@@ -1,6 +1,5 @@
-# reactdemo
-
 CONTENTS OF THIS FILE
+
 Introduction
 
 Hello and thank you so much for visiting this page. This code consist of a react to do list.
